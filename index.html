@@ -69,7 +69,7 @@ El ecosistema de Inteligencia Artificial en general y no solo el generativo est�
 
 <br>
 <br>
-Durante un tiempo se pensaba que el futuro de los modelos de IA "útiles" (vs "de juguete"/"de investigación") iba a ser micro datasets y micro modelos hiper específicos - que contemplen un problema muy particular. Pero ya hace unos años que el rumbo de la IA viró. Ahora se apuesta a la <b>extracción, mercantilización y acumulación de grandes cantidades de datos basura</b> - esperando que la cantidad permita que de entre la basura emerjan "naturalmente" los comportamientos promedios ("correctos"/"verídicos"). Por ejemplo si tengo un conjunto de datos de todas las noticias de un país durante un año, contemplando distintos medios con distintas bajadas de linea editoriales, el prejuicio ideológico estocástico es que la "verdad" está "en el medio" de todas estos puntos de vista. Esta actitud obvía las dinámicas de los discursos en el internet - y cómo la hegemonía de medios se replica en lo digital.
+Durante un tiempo (pre 2018) se pensaba que el futuro de los modelos de IA "útiles" (vs "de juguete"/"de investigación") iba a ser micro datasets y micro modelos hiper específicos - que contemplen un problema muy particular. Pero ya hace unos años que el rumbo de la IA viró. Ahora se apuesta a la <b>extracción, mercantilización y acumulación de grandes cantidades de datos basura</b> - esperando que la cantidad permita que de entre la basura emerjan "naturalmente" los comportamientos promedios ("correctos"/"verídicos"). Por ejemplo si tengo un conjunto de datos de todas las noticias de un país durante un año, contemplando distintos medios con distintas bajadas de linea editoriales, el prejuicio ideológico estocástico es que la "verdad" está "en el medio" de todas estos puntos de vista. Esta actitud obvía las dinámicas de los discursos en el internet - y cómo la hegemonía de medios se replica en lo digital.
 <br>
 <br>
 Más allá de eso, la cantidad de datos es tan grande que <b>el campo de IA en sí no ha podido todavía generar metodologías para el análisis ni la curaduría de los mismos</b> - pero esto no frena de ningún modo la heurística de "Más parámetros implica mejor modelo". El año pasado participé en una mesa de debate de un workshop nacional de NLP - y uno de los puntos de debate era justamente la medición y el benchmarking: ¿cómo podemos poner en el medio de sistemas que el público tiene que usar algo que no sabemos cómo podríamos saber cómo funciona?. Obviamente, todavía no podemos responder eso.
@@ -79,21 +79,153 @@ Finalmente y como consecuencia los datasets contienen <b>un grado desconocido/no
 <br>
 <br>
 
+Cada uno de estos factores se establecen como <b>cristalizaciones de los sesgos pre-existentes de un conjunto de personas que se encuentran en lugares de toma de decisiones</b>. Pero la cristalización de sesgos es -nuevamente- un campo poco explorado. Por ejemplo se ha observado que ChatGPT en vez de repetir los patrones de extremismo presentes en ciertas sociedades, los amplifica. 
+
+<br>
+<br>
+“Responses from prompted “persona” profiles in ChatGPT produce measures of partisan and racial affective polarization that are seven times larger than the average opinion of humans who possess the same attributes as the prompted personas”. 
+<br>
+-----
+<br>
+"Respuestas del perfil de una "persona" prompteada [ingresadas con texto al sistema] en chatGPT produce niveles de polarización afectiva partidarias y raciales siete veces mayores que la opinión promedio de los humanos que poseen los mismos atributos que las personas prompteadas [ingresadas con texto al sistema]".
+
+<br>
+<br>
+<a href="https://osf.io/preprints/socarxiv/5ecfa/ " target="_blank" >Artificially Precise Extremism: How Internet-Trained LLMs Exaggerate Our Differences” de Bisbee, J., Clinton, J., Dorff, C., Kenkel, B., & Larson, J. (https://osf.io/preprints/socarxiv/5ecfa/ ), publicado el 4 de Mayo de 2023 </a>
+
+<br>
+<br>
+
+Esto presenta un escenario exponencialmente peor en cuanto a amplificación de sesgos ante el <b>uso de modelos de IA como máquinas de generación de datos sínteticos</b>: esto es cuando se entrena un modelo con lo que otro modelo genera. 
+
+<br>
+Cuando no se usan modelos de IA para generar de manera inmedible datos a dar de comer a otros modelos inmedibles, las corporaciones del Norte Global están extrayendo y recolectando datos de personas de todo el mundo. Luego, si querés interactuar con los modelos resultantes de nuestros inputs agregados las corporaciones generan literatura, documentación y servicios en inglés, y con precios en dólar americano - en estrategias de negocio abiertamente segregantes para países como Argentina.  
+<br>
+<br>
+Es tan extrema la asimetría que se acuñó el concepto <b>Pobre de GPU/Rico de GPU (GPU Poor/ GPU Rich)</b>. La primera vez que leí sobre este concepto fue en Twitter (obviamente), en donde una persona se burlaba de los intentos de investigadores "GPU Poor" - decía algo así como "Sus esfuerzos son inútiles - les serviría mejor dejar de perder el tiempo intentando por la vía GPU Poor. Simplemente compra más cómputo!" Just buy more compute. Let them eat cake. 
+<br>
+<br>
+Esto es una pintura del estado generalizado de falta de soberanía computacional de los pueblos del Sur Global.
 </p>
 <h2> Lo que la IA Generativa puede ser  </h2>
 <p>
+Si tuviéramos los medios (y los compartiéramos):
+
+
 <br>
 <br>
-El ecosistema de Inteligencia Artificial en general y no solo el generativo está marcado por la abundancia de malos datos -y una tolerancia generalizada hacia los mismos. Los datos que más abundan son los entregados por las personas que habitan lo digital desde sus celulares y sus computadoras, y están en una relación asimétrica respecto a las corporaciones para la entrega de estos datos. Hace ya un tiempo que el rumbo de la IA viró hacia la acumulación de grandes cantidades de datos esperando que los comportamientos promedios emerjan "naturalmente" de estas mismas cantidades. La cantidad de datos es tan grande que el campo en sí no ha podido todavía generar metodologías para la curaduría de los mismos, ni su análisis - pero esto no frenó de ningún modo la heurística de "Más parámetros implica mejor". Finalmente los datasets contienen un grado desconocido/no-conocible de basura en los mismos, siendo un caso paradigmático el descubrimiento en 2023 de la presencia de imágenes de abuso sexual infantil en el dataset open source LAION de 2021 - dataset en el que se basan la gran mayoría de modelos generativos de texto a imagen y cuya liberación constituyó un hito en el ecosistema open source de IA generativo.  
+la Inteligencia Artificial nos permite darle una <b>segunda-tercera-enésima vida a materiales digitales o digitalizables</b>. Todo texto, imagen, fotografía, video, sonido, etc se puede transformar, enlazar, ficcionalizar, enmarcar, (ficcionalmente) continuar, etc. 
+
+<br>
+<br>
+De hecho hay un gran potencial de la IA como <b>registro de cosas de las cuales no hay registro por cuestiones geopolíticas - o los registros son de dificil acceso</b>. Yendo un paso más allá, en vez de pensar en imágenes podemos pensar en máquinas de creación de archivos especulativos.
+
+<br>
+Ante las dictaduras, desapariciones, censuras, silenciamientos - un modelo de IA es accionable y se da a la composición con otros modelos.
+
 <br>
 
+<br>
+<br>
+<b>Es que la IA es un portal hacia abstracciones de más alto orden:
+<br>
+- generación de generadores
+<br>
+- invención de la invención
+</b>
+<br>
+(resonando con Ada Lovelace)
+<br>
+<br>
+
+El Machine Learning es además un lugar fértil para <b>relacionamientos no antropocéntricos con lógicas sub-simbólicas y no-simbólicas</b> →  profundizando en lo digital y entendiendo lo digital como experiencia compartida entre entes con distintos sistemas perceptivos.
+<br>
+<br>
+Por nuestras diferencias, el ML es un campo de <b>descubrimiento continuo de fisuras técnicas fértiles</b> Capacidades y técnicas enteras se "descubrieron" como efecto secundario de arquitecturas, por ej el fine tuning, Few Shot Learning, etc.
+
+<br>
+<br>
+Todo el tiempo se está descubriendo que los modelos van más allá de lo esperado por sus creadores humanos - para bien (fine tuning) como para mal (infinite prompt injection y otras vulnerabilidades en los sistemas computacionales que existen por primera vez en la historia)
+
+<br>
+<br>
+Y no solo eso, sino que <b>como los Pobres de GPU somos la mayoría, hay continuo avance desde el software libre para la realización en situación de pobreza de GPU</b> => llama.cpp corre a 1.18 tok/s en single CPU con 4GB de ram
+
+<br>
+<br>
+Tal vez para algunes también les resulte interesante la cercanía con lo desconocido: el hecho es que explorando los espacios latentes de modelos por nacer se pueden encontrar <b>resultados visuales/sonoros/interactivos -realmente- nunca antes experimentados/percibidos</b> - de los cuales todavía no existe un libro de cómo decodificar.
+
+
+
+
+
+</p>
+<h1> Y es porque veo estas dos caras que me interesa la Soberanía Computacional del Sur Global y pienso: </h1>
+<h2> Tácticas </h2>
+<p>
+Tenemos que diseñar estrategias para aumentar nuestra capacidad de cómputo conjunta
+<br>
+<br>
+
+esto implica aprender a usar eficientemente una computadora (la nuestra o una remota)
+<br>
+<br>
+
+aprender a compartir recursos (y no ser tacaños con lo poco que tenemos)
+<br>
+<br>
+
+aprender a buscar herramientas optimizadas para nuestro hardware y contribuir con la mayoría global Pobres de GPU
+<br>
 </p>
 <h2> Cómputo y Capacidad de cómputo </h2>
 <p>
 <br>
 <br>
 
-Sabía que este modelo estaba finetuneado para hacer imágenes "etéreas", así que quería ver cómo manejaba a Leighton. Rápidamente me aburrí de lo hegemónico del resultado, y terminé pensando en formas de producir los errores que me gustan más: demasiados brazos, articulaciones dobladas de formas en que no debería, simetrías circulares, íconos religiosos.
+computar es resolver (o intentar resolver) un problema 
+exploración+confirmación de hipótesis 
+interconectar - hacer dialogar distintos sistemas
+crear - construir algo nuevo
+
+Obviamente las distinciones y consecuencias filosóficas de relajar la definición de cómputo son causa para otro paper - como este (http://www.scielo.org.ar/pdf/cts/v7n19/v7n19a08.pdf)
+
+Si computar es resolver un problema, el poder de cómputo es la capacidad de un conjunto de personas de resolver un problema.
+
+Mientras más complejo es el problema (por ej implica analizar muchos datos) más nos vamos a encontrar con limitaciones en nuestro conocimiento y limitaciones físicas - la capacidad o poder de cómputo que tenemos disponible.
+
+El poder de cómputo que tenemos disponible se configura como un techo sobre
+cantidad
+complejidad
+escalabilidad
+iteración propia de los procesos creativos
+
+
+Para ir al grano, lo que influye para entender nuestro poder de cómputo es
+modelo del procesador de una computadora (por ej procesador i7, o un Atom, o un AMD Ryzen)
+cantidad de cores de cómputo (por ej 4, o 32)
+presencia y tipo de GPU (por ej integrada o dedicada. Si es dedicada, qué empresa la fabricó y con cuánta vRAM)
+cantidad de RAM (por ej 3GB o 32GB)
+
+(es adyacente pero influencia la cantidad y tipo de memoria - en computación decimos que "la memoria es barata")
+
+Obviamente poder de cómputo
+recurso inaccesible-escaso
+afectado por las brechas digitales y brechas socio-geo-políticas
+
+por ej:
+nos limita a generar videos de 2 seg
+nos limita a generar imágenes de 512x512
+nos limita a generar 10 imágenes por hora
+nos limita a usar plataformas cajanegristas
+nos limita a usar sin entender
+
+
+Quienes tienen poder de cómputo deciden qué problemas son importantes y merecen ser solucionados,
+deciden qué aristas definen un problema,
+bajo qué criterio se considera “solucionado” un problema,
+cómo y cuándo se “solucionan” con cómputo
+toman decisiones de diseño constantemente - en el cómputo: según criterios explícitos
 
 
 </p>
