@@ -1,4 +1,4 @@
-h1 { font-family: Ubuntu; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 5vw; 
+h1 { font-family: Ubuntu; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700;  
 
   text-align: center;
 } 
@@ -33,6 +33,7 @@ img {
   height: auto;
 }
 h1 {
+	line-height: 5vw;
     font-size:10vh;
     background: linear-gradient(90deg, rgba(212,212,212,1) 0%, rgba(133, 129, 129,1) 100%);
 }
@@ -62,6 +63,7 @@ h1 {
         font-size:7vw;
     }
     h1{
+	line-height: 15vw;
  line-height: 70%; 
  }
 #sun {
